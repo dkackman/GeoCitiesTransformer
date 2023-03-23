@@ -57,7 +57,7 @@ Welcome to our _AMAZING_ and 🎉**EXCITING**🎉 project that will bring you ba
   <script src="js/geocities.js"></script>
 </body>
 </html>
-
+```
 
 ## 🏆 Acknowledgements
 
