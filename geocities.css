@@ -1,0 +1,110 @@
+body {
+  background-repeat: repeat !important;
+  margin: 0 !important;
+  padding: 8px !important;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+li,
+div,
+input,
+button,
+textarea {
+  font-family: "Comic Sans MS", "Chalkboard SE", "Marker Felt", "Comic Neue",
+    cursive !important;
+  font-size: 16px !important;
+  color: #000080 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 128, 0.5) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  animation: blink 1s linear infinite !important;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+a {
+  color: #0000ff !important;
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: #ff00ff !important;
+  text-decoration: none !important;
+}
+
+img {
+  border: 3px solid #000080 !important;
+  box-shadow: 3px 3px 5px rgba(0, 0, 128, 0.5) !important;
+}
+
+table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+  margin-bottom: 1em !important;
+  border: 2px solid #000080 !important;
+  background-color: #ffffe0 !important;
+}
+
+td,
+th {
+  border: 1px solid #000080 !important;
+  padding: 6px !important;
+}
+
+th {
+  background-color: #e0e0e0 !important;
+  text-align: left !important;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0 !important;
+}
+
+input,
+button,
+textarea {
+  background-color: #ffffe0 !important;
+  border: 1px solid #000080 !important;
+  box-shadow: 1px 1px 2px rgba(0, 0, 128, 0.5) !important;
+}
+
+input:hover,
+button:hover,
+textarea:hover {
+  background-color: #fffacd !important;
+}
+
+hr {
+  border: none !important;
+  border-top: 2px dashed #000080 !important;
+  margin: 1em 0 !important;
+}
+
+blockquote {
+  background-color: #e6e6fa !important;
+  border-left: 4px solid #000080 !important;
+  padding: 1em !important;
+  margin: 1em 0 !important;
+}
